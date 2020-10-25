@@ -35,7 +35,7 @@ class App extends Component {
               </Link>
             </li>
           </div>
-
+          </nav>
           <div className="container mt-3">
             <Switch>
               <Route exact path={["/"], "/policies"} component={PoliciesList} />
@@ -46,7 +46,6 @@ class App extends Component {
               <Route path="/claims/:id" component={Claim} />
             </Switch>
           </div>
-        </nav>
       </div>
     );
   }
